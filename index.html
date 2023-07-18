@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>The Calculator</title>
+</head>
+<body>
+    <div class="calculator-outline">
+        <div class="calculator-body">
+            <div class="display-screen">
+                <p class="formula">0 + 0 = </p>
+                <p class="answer">0</p>
+            </div>
+            <div class="top-btns">
+                <button id="clear-btn">CLEAR</button>
+                <button id="delete-btn">DELETE</button>
+            </div>
+            <div class="num-pad">
+                <button class="num-btns" id="7-btn" onclick=" keyIn(7)">7</button>
+                <button class="num-btns" id="8-btn" onclick=" keyIn(8)">8</button>
+                <button class="num-btns" id="9-btn" onclick=" keyIn(9)">9</button>
+                <button class="num-btns" id="divide-btn" onclick=" keyIn('/')">/</button>
+                <button class="num-btns" id="4-btn" onclick=" keyIn(4)">4</button>
+                <button class="num-btns" id="5-btn" onclick=" keyIn(5)">5</button>
+                <button class="num-btns" id="6-btn" onclick=" keyIn(6)">6</button>
+                <button class="num-btns" id="multiple-btn" onclick=" keyIn('*')">x</button>
+                <button class="num-btns" id="1-btn" onclick=" keyIn(1)">1</button>
+                <button class="num-btns" id="2-btn" onclick=" keyIn(2)">2</button>
+                <button class="num-btns" id="3-btn" onclick=" keyIn(3)">3</button>
+                <button class="num-btns" id="minus-btn" onclick=" keyIn('-')">-</button>
+                <button class="num-btns" id="decimal-btn" onclick=" keyIn('.')">.</button>
+                <button class="num-btns" id="0-btn" onclick=" keyIn(0)">0</button>
+                <button class="num-btns" id="equals-btn" onclick=" keyIn('=')">=</button>
+                <button class="num-btns" id="plus-btn" onclick=" keyIn('+')">+</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

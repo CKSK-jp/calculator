@@ -1,0 +1,95 @@
+body {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-family:'Trebuchet MS', Arial, sans-serif
+}
+
+.calculator-outline {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(247, 243, 239);
+}
+
+.calculator-body {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(175, 175, 175);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 12px;
+    height: 420px;
+    width: 320px;
+}
+
+.display-screen {
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: white;
+    height: 80px;
+    width: 320px;
+}
+
+.formula {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: end;
+    margin: 0px;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+.answer {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: end;
+    margin: 0px;
+    margin-right: 15px; 
+}
+
+.top-btns {
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#clear-btn, #delete-btn {
+    height: 50px;
+    width: 150px;
+    border: 2px black solid;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#clear-btn {
+    background-color: rgb(253, 163, 163);
+}
+
+#delete-btn {
+    background-color: rgb(149, 149, 255);
+}
+
+.num-pad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    width: 320px;
+}
+
+.num-btns {
+    height: 60px;
+    width: 72px;
+    border: 2px black solid;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+}
